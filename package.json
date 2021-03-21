@@ -16,7 +16,8 @@
     "url": "https://github.com/facug/SDET-cypress-e2e/issues"
   },
   "homepage": "https://github.com/facug/SDET-cypress-e2e#readme",
-  "devDependencies": {
-    "cypress": "^6.8.0"
+  "devDependencies": {},
+  "dependencies": {
+    "protractor": "^7.0.0"
   }
 }
