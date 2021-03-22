@@ -1,7 +1,7 @@
 # SDET-cypress-e2e
 A mini framework to showcase e2e testing!
 
-##Set up
+## Set up
 First you'll need to install protractor and webdriver-manager globaly, you can do so with the command:
 
 ```npm install -g protractor```
@@ -10,7 +10,7 @@ Afterwards, you'll need probably need to update the webdriver-manager with the c
 
 ```webdriver-manager update```
 
-##Running the test case
+## Running the test case
 
 first and foremost, you'll need to have the selenium server running! which is why we have the webdriver-manager, 
 simply run:
