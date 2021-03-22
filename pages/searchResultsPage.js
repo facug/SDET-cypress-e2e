@@ -8,7 +8,7 @@ let searchResultsPage = function () {
     }
 
     this.verifyProductExist = async function () {
-        expect($('.list-items div:nth-child(1) .list-item:nth-child(2) .place-container>a').isDisplayed()).toEqual(true);
+        expect($('.list-items div:nth-child(1) .list-item:nth-child(2) .place-container>a').isPresent()).toEqual(true);
     }
 }
 module.exports = new searchResultsPage();

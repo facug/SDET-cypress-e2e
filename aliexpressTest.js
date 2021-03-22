@@ -8,13 +8,6 @@ describe('searching for products in Aliexpress', function() {
     aliexpressHomePage.closeModals();
     aliexpressHomePage.searchForProduct("iphone");
     await searchResultsPage.goToPage(2);
-    searchResultsPage.verifyProductExist();
-    console.log('waiting for a bit...');
-    await sleep(10000);
+    await searchResultsPage.verifyProductExist();
   });
 });
-
-
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
