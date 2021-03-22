@@ -8,14 +8,22 @@ let aliexpressHomePage = function() {
     
     
     this.closeModals = function() {
-        this.couponModalCloseButton.click();
-        this.subscribeModalCloseButton.click();
-        this.dealsModalCloseButton.click();
+        clickIfVisible(this.couponModalCloseButton);
+        clickIfVisible(this.subscribeModalCloseButton);
+        clickIfVisible(this.dealsModalCloseButton);
     }
 
     this.searchForProduct = function(inputText) {
         this.searchProductsInput.sendKeys(inputText);
         this.searchButton.click();
+    }
+
+    function clickIfVisible(element) {
+        element.isPresent().then(function(isPresent) {
+            if (isPresent){
+                element.click();
+            }
+        })
     }
 }
 
