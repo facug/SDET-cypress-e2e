@@ -1,7 +1,8 @@
 let aliexpressHomePage = require('./pages/aliexpressHomePage')
+let searchResultsPage = require('./pages/searchResultspage')
 
-describe('angularjs homepage todo list', function() {
-  it('should add a todo', async function() {
+describe('searching for products in Aliexpress', function() {
+  it('search for iphone product and check the 2nd page', async function() {
     browser.driver.get('https://www.aliexpress.com ');
 
     //const couponModal = 'img.btn-close';

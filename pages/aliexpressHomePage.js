@@ -1,10 +1,10 @@
-var aliexpressHomePage = function() {
+let aliexpressHomePage = function() {
     this.couponModalCloseButton = element(by.className('btn-close'));
     this.subscribeModalCloseButton = element(by.className('Sk1_X _1-SOk'));
     this.dealsModalCloseButton = element(by.className('close-btn'));
 
-    this.searchProductsInput = element(by.css('.search-key-box input'));
-    this.searchButton = element(by.css('input.search-button'));
+    this.searchProductsInput = $('.search-key-box input');
+    this.searchButton = $('input.search-button') ;
     
     
     this.closeModals = function() {
