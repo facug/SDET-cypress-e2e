@@ -2,7 +2,7 @@
 A mini framework to showcase e2e testing!
 
 ## Set up
-First you'll need to install protractor and webdriver-manager globaly, you can do so with the command:
+First you'll need to clone the project. Afterwards you'll need to install protractor and webdriver-manager globaly, you can do so with the command:
 
 ```npm install -g protractor```
 
